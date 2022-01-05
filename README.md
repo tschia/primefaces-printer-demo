@@ -15,7 +15,7 @@ $ mvn package payara-micro:start
 
 The URL and port should be printed to the log
 
-The urls with context root for the projects are
-http://localhost:8080/pf-11-printer-demo-1.0-SNAPSHOT/index.xhtml
-http://localhost:8080/pf-10-printer-demo-1.0-SNAPSHOT/index.xhtml
-http://localhost:8080/pf-62-printer-demo-1.0-SNAPSHOT/index.xhtml
+The urls with context root for the projects are:
+* http://localhost:8080/pf-11-printer-demo-1.0-SNAPSHOT/index.xhtml
+* http://localhost:8080/pf-10-printer-demo-1.0-SNAPSHOT/index.xhtml
+* http://localhost:8080/pf-62-printer-demo-1.0-SNAPSHOT/index.xhtml
