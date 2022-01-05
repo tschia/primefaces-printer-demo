@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+
+<h:body>
+    <h:outputStylesheet name="styles.css" />
+
+    <p:commandButton value="Print All Records" type="button" >
+        <p:printer target="thingsToPrint" />
+    </p:commandButton>
+    <br/><br/>
+
+    <h:panelGroup id="thingsToPrint">
+        <span class="blue-text print-red-text">This text is blue but should print red </span>
+        <br/>
+        <p:commandButton value="Don't Show This Button on Print" styleClass="hide-on-print" />
+    </h:panelGroup>
+</h:body>
+</html>

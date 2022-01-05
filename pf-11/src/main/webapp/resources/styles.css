@@ -1,0 +1,12 @@
+.blue-text {
+    color: blue
+}
+
+@media print{
+    .hide-on-print {
+        display: none !important;
+    }
+    #thingsToPrint .print-red-text {
+        color: red;
+    }
+}
